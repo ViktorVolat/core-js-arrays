@@ -88,7 +88,7 @@ function findAllOccurrences(arr, item) {
  *    removeFalsyValues([ false, 0, NaN, '', undefined ]) => [ ]
  */
 function removeFalsyValues(arr) {
-    return arr.filter((el) => Boolean(el));
+  return arr.filter((el) => Boolean(el));
 }
 
 /**
@@ -343,7 +343,7 @@ function createChunks(/* arr, chunkSize */) {
  *    generateOdds(5) => [ 1, 3, 5, 7, 9 ]
  */
 function generateOdds(len) {
- return Array.from(Array(len)).map((_, i) => i * 2 + 1);
+  return Array.from(Array(len)).map((_, i) => i * 2 + 1);
 }
 
 /**
